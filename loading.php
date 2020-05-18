@@ -3,7 +3,7 @@
 //오토로드
 spl_autoload_register(function($name){
     echo $name . "을 로드 합니다.";
-    include "Modules\\" .$name . ".php";
+    include "modules\\" .$name . ".php";
     // exit; //종료
     // require $name.".php";
 =======
